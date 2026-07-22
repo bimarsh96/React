@@ -6,7 +6,11 @@ import Add from './addd.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <Add />
-  </StrictMode>,
+    <  App />
+    <Add/>
+
+    </StrictMode>
 )
+
+
+
