@@ -32,6 +32,6 @@ function Scooter() {
 }
 
 // createRoot(document.getElementById("root").render(<Scooter />));
-// export default Scooter
+
 
 export default Add;
