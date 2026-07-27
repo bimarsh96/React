@@ -17,12 +17,12 @@ import { createRoot } from "react-dom/client";
 function Parent(props) {
   return (
     <div>
-      <h1>2 Children</h1>
+      <h1>For 2 Children</h1>
       <Son>
-        <p>dwdwdwdwdwdwdwdwdwdwdwdwdwd</p>
+        <p>Just a random sentence</p>
       </Son>
       <Daughter>
-        <p>nwalcaponndwnkwnpkckvkpbkp</p>
+        <p>Just another random sentence</p>
       </Daughter>
     </div>
   );
