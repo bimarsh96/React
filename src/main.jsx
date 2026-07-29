@@ -10,8 +10,10 @@ import Football from "./event.jsx";
 import Rar from "./list.jsx";
 import Myform from "./formstat.jsx";
 import Favouritecolor from "./state.jsx";
-
-
+import Myupd from "./state.jsx";
+import Timer from "./Effect.jsx";
+import Component1 from "./context.jsx";
+import MyGoal from "./conditional.jsx";
 
 const x = [2, 3, 45, 6, 7, 8];
 const carinfo = ["ford", "mustnag"];
@@ -24,8 +26,12 @@ createRoot(document.getElementById("root")).render(
     {/* <Bike color='red'/> */}
     <Parent />
     <Football />
-    <Rar/>
-    <Favouritecolor/>
-    <Myform/>
+    <Rar />
+    <Favouritecolor />
+    <Myform />
+    <Myupd />
+    <Timer />
+    <Component1 />
+    <MyGoal usGoal={false} />
   </StrictMode>,
 );
